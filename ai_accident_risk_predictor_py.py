@@ -92,7 +92,7 @@ if city and api_key:
 with open("app.py", "w") as f:
     f.write(app_code)
 
-!ngrok config add-authtoken 2wd3bmHGeUazYTRkLogKmjPLHKk_2J8EJvDVTFdJ8QMxUeukq
+!ngrok config add-authtoken #your authentication token here
 
 from pyngrok import ngrok
 import threading
